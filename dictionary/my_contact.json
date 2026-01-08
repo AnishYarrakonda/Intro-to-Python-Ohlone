@@ -1,0 +1,47 @@
+{
+    "01": {
+        "firstName": "John",
+        "lastName": "Smith",
+        "DOB": "1/20/1991",
+        "phoneNum": {
+            "number": "510-600-5400",
+            "type": "cell"
+        },
+        "address": {
+            "street": "100 main street",
+            "city": "Fremont",
+            "state": "CA",
+            "zipcode": "94536"
+        }
+    },
+    "02": {
+        "firstName": "Ron",
+        "lastName": "Robertson",
+        "DOB": "5/23/1991",
+        "phoneNum": {
+            "number": "510-600-8800",
+            "type": "cell"
+        },
+        "address": {
+            "street": "4600 Ohlone Way",
+            "city": "Fremont",
+            "state": "CA",
+            "zipcode": "94539"
+        }
+    },
+    "03": {
+        "firstName": "Paul",
+        "lastName": "Washington",
+        "DOB": "6/15/1995",
+        "phoneNum": {
+            "number": "510-688-1241",
+            "type": "cell"
+        },
+        "address": {
+            "street": "8543 Ohlone Plaza",
+            "city": "Fremont",
+            "state": "CA",
+            "zipcode": "94539"
+        }
+    }
+}

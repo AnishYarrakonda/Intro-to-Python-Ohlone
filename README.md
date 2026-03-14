@@ -1,21 +1,30 @@
 # Intro to Python at Ohlone
 
-Coursework and practice projects from an introductory Python class.
+Collection of introductory Python exercises and small GUIs from an Ohlone College class.
 
-## Contents
-- `printMeFirst/`, `fileCounter/`, `menuFunctions/`, `mortgageGui/`, `olympicRings/`, `taxrate/`, `whileLoopInterest/`
-- zipped copies of some assignments are also included
-- `dictionary/` and `dictionary.zip`
+## Projects
+- `printMeFirst/`: first program that outputs a short greeting.
+- `fileCounter/`: counts files in a directory tree and demonstrates argument parsing.
+- `menuFunctions/`: menu-driven CLI showcasing functions and loops.
+- `mortgageGui/`: simple Tkinter mortgage calculator.
+- `olympicRings/`: turtle graphics drawing of the Olympic symbol.
+- `taxrate/`: applies tax rates to salary inputs.
+- `whileLoopInterest/`: compound interest simulation using while loops.
+- `dictionary/`: dictionary lookups plus linked zipped backup `dictionary.zip`.
 
-## Running projects
-Most projects can be run directly from their folder. Examples:
+Each folder also has a zipped snapshot (e.g., `menuFunctions.zip`) for quick sharing or rollback.
+
+## Running
+From the repo root run the Python script inside the directory you want to explore. Examples:
 
 ```bash
 python3 menuFunctions/menu_functions.py
 python3 fileCounter/file_counter.py
+python3 mortgageGui/mortgage_gui.py
 ```
 
-If a folder contains multiple scripts, start with the one matching the folder purpose or named like a main script.
+If a directory has multiple scripts, start with the one whose name matches the folder purpose or whose docstring indicates it is the entry point.
 
-## Purpose
-This repo is organized as class exercises and small standalone programs rather than one single application.
+## Notes
+- Most scripts expect standard Python 3 without third-party dependencies (Tkinter is required for GUI apps).
+- Zipped copies contain the same scripts plus any assets, so you can unzip to inspect older snapshots.
